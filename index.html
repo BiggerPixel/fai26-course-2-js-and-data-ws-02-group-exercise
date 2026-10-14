@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bygg en varukorgskalkyl</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="min-h-screen bg-slate-100 px-4 py-12 text-slate-900">
+    <main class="mx-auto max-w-xl rounded-2xl bg-white p-8 shadow-lg">
+      <p class="text-sm font-semibold uppercase tracking-wide text-indigo-600">Gruppövning</p>
+      <h1 class="mt-2 text-3xl font-bold">Varukorgskalkyl</h1>
+
+      <dl class="mt-8 grid grid-cols-2 gap-x-6 gap-y-4">
+        <dt class="text-slate-500">Produkt</dt>
+        <dd id="product-name" class="text-right font-semibold">–</dd>
+
+        <dt class="text-slate-500">Antal</dt>
+        <dd id="quantity" class="text-right font-semibold">–</dd>
+
+        <dt class="text-slate-500">Delsumma</dt>
+        <dd id="subtotal" class="text-right font-semibold">–</dd>
+
+        <dt class="text-slate-500">Frakt</dt>
+        <dd id="shipping-cost" class="text-right font-semibold">–</dd>
+
+        <dt class="border-t border-slate-200 pt-4 text-slate-700">Totalt</dt>
+        <dd id="total" class="border-t border-slate-200 pt-4 text-right text-xl font-bold text-indigo-700">–</dd>
+      </dl>
+    </main>
+  </body>
+</html>
